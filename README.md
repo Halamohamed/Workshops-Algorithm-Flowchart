@@ -171,6 +171,14 @@ END
 
 ![alt text](images/exercise6.png)
 
+```marmaid
+sankey-beta
+    day,temperature,20
+    day,temperature,25
+    day,temperature,23
+
+``` 
+
 ---
 
 ## 7. Calculate Area of a Rectangle
