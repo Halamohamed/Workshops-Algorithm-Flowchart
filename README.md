@@ -130,6 +130,20 @@ interest using the formula:
 - **R = Rate of Interest** → percentage per year
 - **T = Time** → number of years
 
+### ✔ Pseudocode
+
+```text
+START
+    INPUT P, R, T
+    SI = (P*R*T)/100
+    DISPLAY SI    
+END
+```
+
+### ✔ Flowchart
+
+![alt text](images/exercise5.png)
+
 ---
 
 ## 6. Average Temperature Calculation
