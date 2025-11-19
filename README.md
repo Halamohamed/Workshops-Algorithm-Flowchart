@@ -252,4 +252,26 @@ Write the algorithm and draw the flowchart for a program that inputs the
 purchase amount and gives a **10% discount** if the amount is greater
 than 1000.
 
+
+### ✔ Pseudocode
+
+```text
+START
+    INPUT amount
+    discount = 0, 
+    If amount > 1000
+        discount = amount * 0,1 
+        Final-amount = amount - discount
+        DISPLAY Final-amount
+    ELSE
+        DISPLAY amount
+    ENDIF
+       
+END
+```
+
+### ✔ Flowchart
+
+![alt text](images/exercise10.png)
+
 ---
