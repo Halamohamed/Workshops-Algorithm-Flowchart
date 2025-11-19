@@ -151,6 +151,26 @@ END
 Write the algorithm and draw the flowchart for a program that takes the
 temperature of 7 days, finds the average temperature, and displays it.
 
+
+### ✔ Pseudocode
+
+```text
+START
+    count =0, total = 0
+    While count <=7
+        INPUT day
+        total = total + day
+        count = count +1
+    ENDWHILE
+    average = total / 7
+    DISPLAY average   
+END
+```
+
+### ✔ Flowchart
+
+![alt text](images/exercise6.png)
+
 ---
 
 ## 7. Calculate Area of a Rectangle
