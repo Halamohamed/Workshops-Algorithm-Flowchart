@@ -53,7 +53,7 @@ START
     INPUT num1, num2, num3
     average = 0, total = 0
     total = num1 + num2 + num3
-    average = total / 3;
+    average = total / 3
         PRINT total
         PRINT average
 END
@@ -70,6 +70,24 @@ END
 
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
+
+### ✔ Pseudocode
+
+```text
+START
+    count =0
+    INPUT number
+    WHILE count <= 10
+        count = count + 1
+        result = number * count
+        DISPLAY number * count = result
+    ENDWHILE
+END
+```
+
+### ✔ Flowchart
+
+![alt text](images/exercise3.png)
 
 ---
 
