@@ -96,6 +96,27 @@ END
 Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
 
+
+### ✔ Pseudocode
+
+```text
+START
+    INPUT number
+    IF number < 0
+        DISPLAY Negative
+    ELSE IF numver > 0
+        DISPLAY Positive
+    ELSE
+        DISPLAY Zero
+    ENDIF
+END
+```
+
+### ✔ Flowchart
+
+![alt text](images/exercise4.png)
+
+
 ---
 
 ## 5. Simple Interest Calculator
