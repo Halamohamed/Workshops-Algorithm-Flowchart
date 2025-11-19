@@ -178,6 +178,20 @@ END
 Create an algorithm and flowchart to input length and width, calculate
 the area (**Area = Length × Width**), and display the result.
 
+### ✔ Pseudocode
+
+```text
+START
+    INPUT Length, Width
+    Area = Length * Width
+    DISPLAY Area      
+END
+```
+
+### ✔ Flowchart
+
+![alt text](images/exercise7.png)
+
 ---
 
 ## 8. Determine Pass or Fail
