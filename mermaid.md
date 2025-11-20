@@ -156,8 +156,8 @@ flowchart TD
     style C fill:green,stroke:black,stroke-width:2px,shadow:shadow
     D --> E[fact = fact * count]
     E --> F{ count <= number? }
-    F --> |No| C
-    F --> |Yes| I[/Print fact/]
+    F --> |Yes| C
+    F --> |No| I[/Print fact/]
     I --> S([End])
     style D fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
     style E fill:slateBlue,stroke:black,stroke-width:2px,shadow:shadow
@@ -178,7 +178,6 @@ flowchart TD
     C --> F{ Amount > 1000 ? }
     style B fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
     style C fill:green,stroke:black,stroke-width:2px,shadow:shadow
-    C --> F{ count <= 7? }
     F --> |Yes| D[discount = Amount * 0.1]
     D --> E[final_amount = amount - discount]
     F --> |No| E
