@@ -177,10 +177,10 @@ flowchart TD
     A([Start]) --> B[count = 0, total = 0]
     B --> C{count <= 7?}
     C --> |Yes| D[/input day/]
-    C --> |No| I
     D --> E[total = total + day]
     E --> F[count ++]
-    F --> I[average = total/7]
+    F --> C
+    C --> |No| I[average = total/7]
     I --> G[/DISPLAY average/]
     G --> S([End])
 
