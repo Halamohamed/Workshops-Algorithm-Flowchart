@@ -44,3 +44,27 @@ flowchart TD
 ```
 
 ---
+## Flowchart Exercise 4
+
+``` mermaid
+flowchart TD
+    A([Start]) --> B[/Input number/]
+    style A fill:lightblue,stroke:darkblue,stroke-width:4px,shadow:shadow
+    B --> C{ number < 0? }
+    style B fill:lightgreen,stroke:black,stroke-width:4px,shadow:shadow
+    C --> |No| D{ number > 0? }
+    style C fill:lightorange,stroke:black,stroke-width:4px,shadow:shadow
+    C --> |Yes| E[/Print Negative/]
+    D --> |Yes| F[/Print Positive/]
+    D --> |No| G[/Print Zero/]
+    E --> S([End])
+    F --> S([End])
+    G --> S([End])
+    style D fill:lightred,stroke:black,stroke-width:2px,shadow:shadow
+    style E fill:lighttrcoas,stroke:black,stroke-width:2px,shadow:shadow
+    style F fill:lightpurple,stroke:black,stroke-width:2px,shadow:shadow
+    style G fill:orange,stroke:darkblue,stroke-width:4px,shadow:shadow
+    style S fill:lightblue,stroke:darkblue,stroke-width:4px,shadow:shadow
+```
+
+---
