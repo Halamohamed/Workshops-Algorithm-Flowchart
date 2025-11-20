@@ -171,11 +171,16 @@ END
 
 ![alt text](images/exercise6.png)
 
-```marmaid
-sankey-beta
-    day,temperature,20
-    day,temperature,25
-    day,temperature,23
+```mermaid
+flowchart TB
+    A(Start) --> B[/count = 0, total = 0/]
+    B --> C[/count<= 7/]
+    c --> D[/input day/]
+    D --> E[/total = total + day/]
+    E --> F[/count ++/]
+    F --> I[/average = total/7/]
+    I --> G[DISPLAY average]
+
 
 ``` 
 
