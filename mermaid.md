@@ -1,4 +1,23 @@
 
+## Flowchart Exercise 1
+
+
+```mermaid
+flowchart TD
+    A([Start]) --> I[/ Input N/]
+    I --> B{N % 2 == 0 ?}
+    B -->|Yes| C[/Print Even/]
+    B -->|No| D[/Print Odd/]
+    C --> E([End])
+    D --> E([End])
+    style A fill:lightblue,stroke:black,stroke-width:2px,shadow:shadow
+    style I fill:green,stroke:black,stroke-width:2px,shadow:shadow
+    style B fill:orange,stroke:black,stroke-width:2px,shadow:shadow
+    style C fill:violet,stroke:black,stroke-width:2px,shadow:shadow
+    style D fill:tomato,stroke:black,stroke-width:2px,shadow:shadow
+    style E fill:lightblue,stroke:black,stroke-width:2px,shadow:shadow
+```
+--- 
 
 ## Flowchart Exercise 2
 
