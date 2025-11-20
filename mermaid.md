@@ -68,3 +68,127 @@ flowchart TD
 ```
 
 ---
+
+## Flowchart Exercise 5
+
+``` mermaid
+flowchart TD
+    A([Start]) --> B[/Input P, R, T/]
+    style A fill:lightblue,stroke:black,stroke-width:2px,shadow:shadow
+    B --> C[SI = P*R*T ]
+    style B fill:green,stroke:black,stroke-width:2px,shadow:shadow
+    C --> D[/Print SI/]
+    style C fill:tomato,stroke:black,stroke-width:2px,shadow:shadow
+    D --> S([End])
+    style D fill:Violet,stroke:black,stroke-width:2px,shadow:shadow
+    style S fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+```
+
+---
+
+## Flowchart Exercise 6
+
+``` mermaid
+flowchart TD
+    A([Start]) --> B[count = 0, total = 0]
+    style A fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+    B --> C[/Input day/]
+    C --> D[count ++]
+    style B fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
+    style C fill:green,stroke:black,stroke-width:2px,shadow:shadow
+    D --> E[total = total + day]
+    E --> F{ count <= 7? }
+    F --> |No| C
+    F --> |Yes| G[average = total/7]
+    G --> I[/Print average/]
+    I --> S([End])
+    style D fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
+    style E fill:slateBlue,stroke:black,stroke-width:2px,shadow:shadow
+    style F fill:orange,stroke:black,stroke-width:2px,shadow:shadow
+    style G fill:tomato,stroke:darkblue,stroke-width:2px,shadow:shadow
+    style I fill:violet,stroke:black,stroke-width:2px,shadow:shadow
+    style S fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+```
+
+---
+
+## Flowchart Exercise 7
+
+``` mermaid
+flowchart TD
+    A([Start]) --> B[/Input Length, Width/]
+    style A fill:lightblue,stroke:black,stroke-width:2px,shadow:shadow
+    B --> C[Area = Length * Width ]
+    style B fill:green,stroke:black,stroke-width:2px,shadow:shadow
+    C --> D[/Print Area/]
+    style C fill:tomato,stroke:black,stroke-width:2px,shadow:shadow
+    D --> S([End])
+    style D fill:Violet,stroke:black,stroke-width:2px,shadow:shadow
+    style S fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+```
+
+---
+
+
+## Flowchart Exercise 8
+
+```mermaid
+flowchart TD
+    A([Start]) --> I[/Input Average/]
+    I --> B{Average >= 50?}
+    B -->|Yes| C[/Print Pass/]
+    B -->|No| D[/Print Fail/]
+    C --> E([End])
+    D --> E([End])
+```
+
+---
+
+## Flowchart Exercise 9
+
+``` mermaid
+flowchart TD
+    A([Start]) --> B[count = 0, fact = 0]
+    style A fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+    B --> C[/Input number/]
+    C --> D[count ++]
+    style B fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
+    style C fill:green,stroke:black,stroke-width:2px,shadow:shadow
+    D --> E[fact = fact * count]
+    E --> F{ count <= number? }
+    F --> |No| C
+    F --> |Yes| I[/Print fact/]
+    I --> S([End])
+    style D fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
+    style E fill:slateBlue,stroke:black,stroke-width:2px,shadow:shadow
+    style F fill:orange,stroke:black,stroke-width:2px,shadow:shadow
+    style I fill:violet,stroke:black,stroke-width:2px,shadow:shadow
+    style S fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+```
+
+---
+
+## Flowchart Exercise 10
+
+``` mermaid
+flowchart TD
+    A([Start]) --> B[discount = 0, final_amount = 0]
+    style A fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+    B --> C[/Input Amount/]
+    C --> F{ Amount > 1000 ? }
+    style B fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
+    style C fill:green,stroke:black,stroke-width:2px,shadow:shadow
+    C --> F{ count <= 7? }
+    F --> |Yes| D[discount = Amount * 0.1]
+    D --> E[final_amount = amount - discount]
+    F --> |No| E
+    E --> I[/Print final_amount/]
+    I --> S([End])
+    style D fill:yellow,stroke:black,stroke-width:2px,shadow:shadow
+    style E fill:slateBlue,stroke:black,stroke-width:2px,shadow:shadow
+    style F fill:orange,stroke:black,stroke-width:2px,shadow:shadow
+    style I fill:violet,stroke:black,stroke-width:2px,shadow:shadow
+    style S fill:lightblue,stroke:darkblue,stroke-width:2px,shadow:shadow
+```
+
+---
