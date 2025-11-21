@@ -94,7 +94,7 @@ flowchart TD
 flowchart TD
     A([Start]) --> B[/Input P, R, T/]
     style A fill:lightblue,stroke:black,stroke-width:2px,shadow:shadow
-    B --> C[SI = P*R*T ]
+    B --> C[SI = (P*R*T)/100 ]
     style B fill:green,stroke:black,stroke-width:2px,shadow:shadow
     C --> D[/Print SI/]
     style C fill:tomato,stroke:black,stroke-width:2px,shadow:shadow
